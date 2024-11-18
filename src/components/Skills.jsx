@@ -10,9 +10,9 @@ import {
   FaPython,
   FaNodeJs,
 } from "react-icons/fa";
-import { TbCircleLetterC, TbBrandCpp } from "react-icons/tb";
+import { TbBrandCpp } from "react-icons/tb";
 import { DiJavascript1, DiPostgresql } from "react-icons/di";
-import { SiMongodb, SiLeetcode, SiExpress, SiSequelize, SiRedux } from "react-icons/si";
+import { SiMongodb, SiExpress, SiSequelize, SiRedux } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 const Skills = () => {
