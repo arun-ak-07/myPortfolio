@@ -1,6 +1,7 @@
 import React from 'react';
 import jerseyStore from '../assets/jerseyStore.png';
 import animeStore from '../assets/animeStore.png';
+import deepNetSoft from '../assets/deepNetSoft.png';
 
 const projectsData = [
     {
@@ -19,6 +20,14 @@ const projectsData = [
         link: 'https://jersey-front-end.vercel.app/', 
         github: 'https://github.com/arun-ak-07/Jersey-Front-End',
     },
+    {
+        id: 3,
+        title: 'Deep Net Soft UI',
+        description: 'A web app for sports jerseys with robust user and admin functionalities.',
+        image: deepNetSoft,
+        link: 'https://deep-net-soft-front-end.vercel.app/', 
+        github: 'https://github.com/arun-ak-07/deepNetSoft-frontEnd',
+    },
 ];
 
 const Projects = () => {
@@ -27,8 +36,8 @@ const Projects = () => {
             <h2 className="text-3xl font-bold text-center text-white mb-6">My Projects</h2>
             <div className="grid gap-6 md:grid-cols-2 sm:grid-cols-1 max-w-5xl mx-auto">
                 {projectsData.map((project) => (
-                    <div key={project.id} className="bg-white rounded-lg shadow-md overflow-hidden sm:mx-0 mx-4">
-                        <div className="h-64 w-full">
+                    <div key={project.id} className="bg-gray-800 rounded-lg shadow-md overflow-hidden sm:mx-0 mx-4">
+                        <div className="h-64 w-full p-2">
                             <img
                                 src={project.image}
                                 alt={project.title}
@@ -36,8 +45,8 @@ const Projects = () => {
                             />
                         </div>
                         <div className="p-4">
-                            <h3 className="text-xl font-semibold text-gray-800">{project.title}</h3>
-                            <p className="text-gray-600 mt-2 whitespace-pre-line">{project.description}</p>
+                            <h3 className="text-xl font-semibold text-white">{project.title}</h3>
+                            <p className="text-white mt-2 whitespace-pre-line">{project.description}</p>
                             <div className="mt-4 flex space-x-4 flex-wrap justify-center">
                                 <a
                                     href={project.link}
@@ -51,7 +60,7 @@ const Projects = () => {
                                     href={project.github}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="px-4 py-2 bg-gray-800 text-white font-medium rounded-md shadow-md hover:bg-gray-900 mb-2 sm:mb-0"
+                                    className="px-4 py-2 bg-green-500 text-white font-medium rounded-md shadow-md hover:bg-gray-900 mb-2 sm:mb-0"
                                 >
                                     GitHub
                                 </a>

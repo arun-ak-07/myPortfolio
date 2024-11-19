@@ -41,7 +41,7 @@ const Contact = () => {
       <h1 className="text-3xl font-bold mb-6">Contact Me</h1>
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-md bg-gray-800 p-6 rounded-md shadow-lg hover:border-2"
+        className="w-full max-w-md bg-gray-800 p-6 rounded-md shadow-lg"
       >
         <div className="mb-4">
           <label htmlFor="name" className="block text-sm font-medium mb-1">
