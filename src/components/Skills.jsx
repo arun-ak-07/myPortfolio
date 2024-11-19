@@ -58,7 +58,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="bg-gray-900 p-6 flex flex-col justify-center items-center mb-12" id="skills">
+    <div className="bg-gray-900 p-6 flex h-screen flex-col justify-center items-center mb-22" id="skills">
       <h1 className="text-3xl font-bold text-center text-white mb-8">Skills</h1>
       <div className="flex flex-wrap justify-center items-center gap-6">
         {skills.map((skill) => (
