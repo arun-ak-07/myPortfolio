@@ -27,7 +27,7 @@ const Projects = () => {
             <h2 className="text-3xl font-bold text-center text-white mb-6">My Projects</h2>
             <div className="grid gap-6 md:grid-cols-2 sm:grid-cols-1 max-w-5xl mx-auto">
                 {projectsData.map((project) => (
-                    <div key={project.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:border-2">
+                    <div key={project.id} className="bg-white rounded-lg shadow-md overflow-hidden sm:mx-0 mx-4">
                         <div className="h-64 w-full">
                             <img
                                 src={project.image}
