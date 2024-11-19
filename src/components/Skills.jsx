@@ -7,7 +7,6 @@ import {
   FaBootstrap,
   FaHtml5,
   FaCss3,
-  FaPython,
   FaNodeJs,
 } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";

@@ -30,7 +30,7 @@ const Navbar = () => {
 
             <ul className={`md:hidden fixed top-0 right-0 w-full bg-gray-800 bg-opacity-95 text-gray-200 space-y-6 flex flex-col items-center justify-start p-8 transition-transform duration-300 transform ${nav ? 'translate-y-0' : '-translate-y-full'}`}>
 
-                <li className="absolute top-6 right-6" onClick={toggleNav}>
+                <li className="absolute top-6 right-6 cursor-pointer" onClick={toggleNav}>
                     <FaTimes size={30} className="text-gray-200 cursor-pointer" />
                 </li>
                 <li onClick={toggleNav}><a href="#home" className="text-2xl hover:text-gray-400">Home</a></li>

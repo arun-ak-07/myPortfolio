@@ -23,7 +23,7 @@ const Services = () => {
     return (
         <section
             id="services"
-            className="w-full py-16 bg-gray-900 text-gray-200 flex justify-center items-center"
+            className="w-full h-screen py-16 bg-gray-900 text-gray-200 flex justify-center items-center"
         >
             <div className="container mx-auto px-6">
                 <div className="text-center mb-12">
