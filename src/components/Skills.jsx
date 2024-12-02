@@ -40,11 +40,7 @@ const Skills = () => {
     JavaScript: <DiJavascript1 />,
     Bootstrap: <FaBootstrap />,
     React: <FaReact />,
-    "Redux Toolkit": (
-      <div className="relative flex items-center justify-center w-full h-full text-center">
-        <SiRedux />
-      </div>
-    ),
+    "Redux Toolkit": <SiRedux />,
     TailwindCss: <RiTailwindCssFill />,
     NPM: <FaNpm />,
     MongoDB: <SiMongodb />,
@@ -65,9 +61,11 @@ const Skills = () => {
           <div
             key={skill}
             title={skill}
-            className="w-[80px] h-[80px] md:w-[10%] md:min-w-[120px] md:h-[120px] flex items-center justify-center mb-6 border-2 text-4xl rounded-md transition-transform duration-500 transform hover:scale-110 text-white"
+            aria-label={skill}
+            className="w-[80px] h-[80px] md:w-[10%] md:min-w-[120px] md:h-[120px] flex flex-col items-center justify-center mb-6 border-2 border-gray-700 text-4xl rounded-md transition-transform duration-500 transform hover:scale-110 hover:shadow-lg text-white"
           >
             {icon[skill]}
+            <div className="text-sm mt-2">{skill}</div> {/* Skill label */}
           </div>
         ))}
       </div>
