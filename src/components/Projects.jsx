@@ -7,7 +7,7 @@ const projectsData = [
     {
         id: 1,
         title: 'Anime T-Shirt Store',
-        description: 'An e-commerce platform for anime-themed t-shirts with user and admin features.',
+        description: 'An e-commerce platform for anime-themed t-shirts featuring user functionalities like product search, cart, wishlist, and profile management, along with admin capabilities for product and user management.',
         image: animeStore, 
         link: 'https://zoro-frontend.vercel.app/', 
         github: 'https://github.com/arun-ak-07/ZORO-frontend',
@@ -15,7 +15,7 @@ const projectsData = [
     {
         id: 2,
         title: 'Sports Jersey Store',
-        description: 'A web app for sports jerseys with robust user and admin functionalities.',
+        description: 'A web app for sports jerseys offering seamless user and admin functionalities, including product browsing, cart management, wishlist, and inventory updates.',
         image: jerseyStore,
         link: 'https://jersey-front-end.vercel.app/', 
         github: 'https://github.com/arun-ak-07/Jersey-Front-End',
@@ -23,7 +23,7 @@ const projectsData = [
     {
         id: 3,
         title: 'Deep Net Soft UI',
-        description: 'A unique UI project featuring dynamic sports data visualization.',
+        description: 'A unique UI project is a responsive and user-friendly online food menu interface showcasing a variety of options, including food, drinks, and brunch categories. Customers can easily navigate through the menu to explore available items',
         image: deepNetSoft,
         link: 'https://deep-net-soft-front-end.vercel.app/', 
         github: 'https://github.com/arun-ak-07/deepNetSoft-frontEnd',
