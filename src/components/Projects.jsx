@@ -2,6 +2,7 @@ import React from 'react';
 import jerseyStore from '../assets/jerseyStore.png';
 import animeStore from '../assets/animeStore.png';
 import deepNetSoft from '../assets/deepNetSoft.png';
+import exclusive from '../assets/exclusive store.png'
 
 const projectsData = [
     {
@@ -28,6 +29,14 @@ const projectsData = [
         link: 'https://deep-net-soft-front-end.vercel.app/', 
         github: 'https://github.com/arun-ak-07/deepNetSoft-frontEnd',
     },
+    {
+        id: 3,
+        title: 'Exclusive Store',
+        description: 'A comprehensive online store featuring a wide range of products with seamless user experience, including product browsing, cart management, and secure checkout. Built for efficiency and style.',
+        image: exclusive,
+        link: 'https://exclusive-store-chi.vercel.app', 
+        github: 'https://github.com/arun-ak-07/Exclusive-store-frontend',
+    }
 ];
 
 const Projects = () => {
